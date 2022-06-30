@@ -6,7 +6,7 @@ namespace skillBox_homework_5_1
     {
         static void Main(string[] args)
         {
-            
+            Console.WriteLine($"Введите строку которую надо разделить\n");
             string sentense = Console.ReadLine();
             if (!String.IsNullOrEmpty(sentense)) {
                 string[] substrings = StringToArrayOfSubstrings(sentense, " ");
